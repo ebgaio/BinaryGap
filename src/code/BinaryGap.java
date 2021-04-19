@@ -80,15 +80,11 @@ class Solution {
 
 	private int getGaps(List<Integer> binaryArray) {
 
-		// finding the first one via its index
 		int firstOne = binaryArray.indexOf(1);
 
-		// new array created taking a slice of original array
-		// from the index of the firstOne + 1 index
 		List<Integer> newBinaryArray = new ArrayList<>();
 		newBinaryArray = binaryArray.subList(firstOne + 1, binaryArray.size());
 
-		// finding second one via its index in new array slice
 		int secondOne = newBinaryArray.indexOf(1);
 		
 		if (secondOne > -1 ) {
