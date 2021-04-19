@@ -12,7 +12,7 @@ public class BinaryGap {
 		Solution solution = new Solution();
 
 		// Different tests:
-		Integer number;
+		Integer number = 5;
 //		number = 15; // (1111), Expected = 0
 //		number = 0000000; // (0000000), Expected = 0
 //		number = 1; // (1), Expected = 0
